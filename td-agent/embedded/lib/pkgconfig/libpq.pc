@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 9.6.9
+Requires: 
+Requires.private: 
+Cflags: -I/opt/td-agent/embedded/include
+Libs: -L/opt/td-agent/embedded/lib -lpq
+Libs.private: -L/opt/td-agent/embedded/lib -lssl -lcrypto -lcrypt

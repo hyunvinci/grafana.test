@@ -1,0 +1,4 @@
+#!/bin/sh
+export GEM_HOME="/opt/td-agent/embedded/lib/ruby/gems/2.4.0/"
+export GEM_PATH="/opt/td-agent/embedded/lib/ruby/gems/2.4.0/"
+/opt/td-agent/embedded/bin/td "$@"

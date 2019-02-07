@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 9.6.9
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/opt/td-agent/embedded/include
+Libs: -L/opt/td-agent/embedded/lib -lecpg
+Libs.private: -L/opt/td-agent/embedded/lib -lm

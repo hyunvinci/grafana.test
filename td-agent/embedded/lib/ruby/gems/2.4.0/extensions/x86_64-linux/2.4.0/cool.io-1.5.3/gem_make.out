@@ -1,0 +1,18 @@
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/cool.io-1.5.3/ext/iobuffer
+/opt/td-agent/embedded/bin/ruby -r ./siteconf20190123-20341-11xgcvf.rb extconf.rb
+checking for main() in -lc... yes
+checking for HAVE_RB_IO_T in rubyio.h... yes
+checking for rb_io_t.fd in rubyio.h... yes
+creating Makefile
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/cool.io-1.5.3/ext/iobuffer
+make "DESTDIR=" clean
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/cool.io-1.5.3/ext/iobuffer
+make "DESTDIR="
+compiling iobuffer.c
+linking shared-object iobuffer_ext.so
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/cool.io-1.5.3/ext/iobuffer
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 iobuffer_ext.so ./.gem.20190123-20341-e61j77

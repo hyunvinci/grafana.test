@@ -1,0 +1,20 @@
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/strptime-0.2.3/ext/strptime
+/opt/td-agent/embedded/bin/ruby -r ./siteconf20190123-20807-g8dnqy.rb extconf.rb
+checking for rb_timespec_now()... yes
+checking for rb_time_timespec_new()... yes
+checking for rb_time_utc_offset()... no
+creating Makefile
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/strptime-0.2.3/ext/strptime
+make "DESTDIR=" clean
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/strptime-0.2.3/ext/strptime
+make "DESTDIR="
+compiling ruby_time.c
+compiling strftime.c
+compiling strptime.c
+linking shared-object strptime/strptime.so
+
+current directory: /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/strptime-0.2.3/ext/strptime
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 strptime.so ./.gem.20190123-20807-4s5mlo/strptime

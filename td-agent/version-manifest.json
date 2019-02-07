@@ -1,0 +1,276 @@
+{
+  "manifest_format": 2,
+  "software": {
+    "preparation": {
+      "locked_version": "1.0.0",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.0.0",
+      "license": "project_license"
+    },
+    "jemalloc": {
+      "locked_version": "4.5.0",
+      "locked_source": {
+        "sha256": "9409d85664b4f135b77518b0b118c549009dc10f6cba14557d170476611f6780",
+        "url": "https://github.com/jemalloc/jemalloc/releases/download/4.5.0/jemalloc-4.5.0.tar.bz2"
+      },
+      "source_type": "url",
+      "described_version": "4.5.0",
+      "license": "Unspecified"
+    },
+    "zlib": {
+      "locked_version": "1.2.11",
+      "locked_source": {
+        "sha256": "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1",
+        "url": "https://zlib.net/fossils/zlib-1.2.11.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.2.11",
+      "license": "Zlib"
+    },
+    "cacerts": {
+      "locked_version": "2018-12-05",
+      "locked_source": {
+        "url": "https://curl.haxx.se/ca/cacert-2018-12-05.pem",
+        "sha256": "4d89992b90f3e177ab1d895c00e8cded6c9009bec9d56981ff4f0a59e9cc56d6"
+      },
+      "source_type": "url",
+      "described_version": "2018-12-05",
+      "license": "MPL-2.0"
+    },
+    "xproto": {
+      "locked_version": "7.0.25",
+      "locked_source": {
+        "md5": "a47db46cb117805bd6947aa5928a7436",
+        "url": "https://www.x.org/releases/individual/proto/xproto-7.0.25.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "7.0.25",
+      "license": "MIT"
+    },
+    "util-macros": {
+      "locked_version": "1.18.0",
+      "locked_source": {
+        "md5": "fd0ba21b3179703c071bbb4c3e5fb0f4",
+        "url": "https://www.x.org/releases/individual/util/util-macros-1.18.0.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.18.0",
+      "license": "MIT"
+    },
+    "config_guess": {
+      "locked_version": "84f04b02a7e2fc8eaa9d52deee5f6d57b06fe447",
+      "locked_source": {
+        "git": "https://github.com/chef/config-mirror.git"
+      },
+      "source_type": "git",
+      "described_version": "master",
+      "license": "GPL-3.0 (with exception)"
+    },
+    "pkg-config-lite": {
+      "locked_version": "0.28-1",
+      "locked_source": {
+        "md5": "61f05feb6bab0a6bbfab4b6e3b2f44b6",
+        "url": "http://downloads.sourceforge.net/project/pkgconfiglite/0.28-1/pkg-config-lite-0.28-1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "0.28-1",
+      "license": "GPL-2.0"
+    },
+    "makedepend": {
+      "locked_version": "1.0.5",
+      "locked_source": {
+        "url": "https://www.x.org/releases/individual/util/makedepend-1.0.5.tar.gz",
+        "md5": "efb2d7c7e22840947863efaedc175747"
+      },
+      "source_type": "url",
+      "described_version": "1.0.5",
+      "license": "MIT"
+    },
+    "openssl": {
+      "locked_version": "1.0.2q",
+      "locked_source": {
+        "url": "https://www.openssl.org/source/openssl-1.0.2q.tar.gz",
+        "extract": "lax_tar",
+        "sha256": "5744cfcbcec2b1b48629f7354203bc1e5e9b5466998bbccc5b5fcde3b18eb684"
+      },
+      "source_type": "url",
+      "described_version": "1.0.2q",
+      "license": "OpenSSL"
+    },
+    "ncurses": {
+      "locked_version": "5.9",
+      "locked_source": {
+        "md5": "8cb9c412e5f2d96bc6f459aa8c6282a1",
+        "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "5.9",
+      "license": "MIT"
+    },
+    "libedit": {
+      "locked_version": "20120601-3.0",
+      "locked_source": {
+        "md5": "e50f6a7afb4de00c81650f7b1a0f5aea",
+        "url": "http://www.thrysoee.dk/editline/libedit-20120601-3.0.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "20120601-3.0",
+      "license": "BSD-3-Clause"
+    },
+    "libtool": {
+      "locked_version": "2.4",
+      "locked_source": {
+        "md5": "b32b04148ecdd7344abc6fe8bd1bb021",
+        "url": "https://ftp.gnu.org/gnu/libtool/libtool-2.4.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.4",
+      "license": "GPL-2.0"
+    },
+    "libffi": {
+      "locked_version": "3.2.1",
+      "locked_source": {
+        "md5": "83b89587607e3eb65c70d361f13bab43",
+        "url": "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "3.2.1",
+      "license": "MIT"
+    },
+    "libyaml": {
+      "locked_version": "0.1.7",
+      "locked_source": {
+        "sha256": "8088e457264a98ba451a90b8661fcb4f9d6f478f7265d48322a196cec2480729",
+        "url": "http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "0.1.7",
+      "license": "MIT"
+    },
+    "libiconv": {
+      "locked_version": "1.15",
+      "locked_source": {
+        "url": "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz",
+        "sha256": "ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178"
+      },
+      "source_type": "url",
+      "described_version": "1.15",
+      "license": "LGPL-2.1"
+    },
+    "ruby": {
+      "locked_version": "2.4.5",
+      "locked_source": {
+        "sha256": "6737741ae6ffa61174c8a3dcdd8ba92bc38827827ab1d7ea1ec78bc3cefc5198",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.4.5",
+      "license": "BSD-2-Clause"
+    },
+    "liblzma": {
+      "locked_version": "5.2.3",
+      "locked_source": {
+        "url": "http://tukaani.org/xz/xz-5.2.3.tar.gz",
+        "md5": "ef68674fb47a8b8e741b34e429d86e9d"
+      },
+      "source_type": "url",
+      "described_version": "5.2.3",
+      "license": "Public-Domain"
+    },
+    "libxml2": {
+      "locked_version": "2.9.8",
+      "locked_source": {
+        "sha256": "0b74e51595654f958148759cfef0993114ddccccbb6f31aee018f3558e8e2732",
+        "url": "ftp://xmlsoft.org/libxml2/libxml2-2.9.8.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.9.8",
+      "license": "MIT"
+    },
+    "libxslt": {
+      "locked_version": "1.1.30",
+      "locked_source": {
+        "sha256": "ba65236116de8326d83378b2bd929879fa185195bc530b9d1aba72107910b6b3",
+        "url": "ftp://xmlsoft.org/libxml2/libxslt-1.1.30.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.1.30",
+      "license": "MIT"
+    },
+    "rubygems": {
+      "locked_version": "2.6.14",
+      "locked_source": {
+        "md5": "e0a6914ce03b91dfc6d448ebf292f145",
+        "url": "http://production.cf.rubygems.org/rubygems/rubygems-2.6.14.tgz"
+      },
+      "source_type": "url",
+      "described_version": "2.6.14",
+      "license": "MIT"
+    },
+    "nokogiri": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "MIT"
+    },
+    "postgresql": {
+      "locked_version": "9.6.9",
+      "locked_source": {
+        "sha256": "b97952e3af02dc1e446f9c4188ff53021cc0eed7ed96f254ae6daf968c443e2e",
+        "url": "https://ftp.postgresql.org/pub/source/v9.6.9/postgresql-9.6.9.tar.bz2"
+      },
+      "source_type": "url",
+      "described_version": "9.6.9",
+      "license": "PostgreSQL"
+    },
+    "fluentd": {
+      "locked_version": "5b80dd0d6256784963fe7b01181450268b481eb9",
+      "locked_source": {
+        "git": "https://github.com/fluent/fluentd.git"
+      },
+      "source_type": "git",
+      "described_version": "5b80dd0d6256784963fe7b01181450268b481eb9",
+      "license": "Unspecified"
+    },
+    "td-agent": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "Unspecified"
+    },
+    "td-agent-files": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "Unspecified"
+    },
+    "td": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "Unspecified"
+    },
+    "td-agent-cleanup": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "Unspecified"
+    },
+    "version-manifest": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    }
+  },
+  "build_version": "3.3.0",
+  "build_git_revision": "6fc470a77ebdc5869e2b26f28969dfa0b205c373",
+  "license": "Unspecified"
+}

@@ -1,0 +1,33 @@
+td-agent 3.3.0
+
+Component          Installed Version                          Version GUID                                                              Overridden From   
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+cacerts            2018-12-05                                 sha256:4d89992b90f3e177ab1d895c00e8cded6c9009bec9d56981ff4f0a59e9cc56d6   
+config_guess       master                                     git:84f04b02a7e2fc8eaa9d52deee5f6d57b06fe447                              
+fluentd            5b80dd0d6256784963fe7b01181450268b481eb9   git:5b80dd0d6256784963fe7b01181450268b481eb9                              master            
+jemalloc           4.5.0                                      sha256:9409d85664b4f135b77518b0b118c549009dc10f6cba14557d170476611f6780   4.2.1             
+libedit            20120601-3.0                               md5:e50f6a7afb4de00c81650f7b1a0f5aea                                      
+libffi             3.2.1                                      md5:83b89587607e3eb65c70d361f13bab43                                      
+libiconv           1.15                                       sha256:ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178   
+liblzma            5.2.3                                      md5:ef68674fb47a8b8e741b34e429d86e9d                                      
+libtool            2.4                                        md5:b32b04148ecdd7344abc6fe8bd1bb021                                      
+libxml2            2.9.8                                      sha256:0b74e51595654f958148759cfef0993114ddccccbb6f31aee018f3558e8e2732   
+libxslt            1.1.30                                     sha256:ba65236116de8326d83378b2bd929879fa185195bc530b9d1aba72107910b6b3   
+libyaml            0.1.7                                      sha256:8088e457264a98ba451a90b8661fcb4f9d6f478f7265d48322a196cec2480729   
+makedepend         1.0.5                                      md5:efb2d7c7e22840947863efaedc175747                                      
+ncurses            5.9                                        md5:8cb9c412e5f2d96bc6f459aa8c6282a1                                      
+nokogiri           3.3.0                                      
+openssl            1.0.2q                                     sha256:5744cfcbcec2b1b48629f7354203bc1e5e9b5466998bbccc5b5fcde3b18eb684   
+pkg-config-lite    0.28-1                                     md5:61f05feb6bab0a6bbfab4b6e3b2f44b6                                      
+postgresql         9.6.9                                      sha256:b97952e3af02dc1e446f9c4188ff53021cc0eed7ed96f254ae6daf968c443e2e   9.2.10            
+preparation        1.0.0                                      
+ruby               2.4.5                                      sha256:6737741ae6ffa61174c8a3dcdd8ba92bc38827827ab1d7ea1ec78bc3cefc5198   
+rubygems           3.3.0                                      
+td                 3.3.0                                      
+td-agent           3.3.0                                      
+td-agent-cleanup   3.3.0                                      
+td-agent-files     3.3.0                                      
+util-macros        1.18.0                                     md5:fd0ba21b3179703c071bbb4c3e5fb0f4                                      
+version-manifest   0.0.1                                      
+xproto             7.0.25                                     md5:a47db46cb117805bd6947aa5928a7436                                      
+zlib               1.2.11                                     sha256:c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1   

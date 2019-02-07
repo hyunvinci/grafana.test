@@ -1,0 +1,7 @@
+--use-system-libraries
+--with-xml2-lib=/opt/td-agent/embedded/lib
+--with-xml2-include=/opt/td-agent/embedded/include/libxml2
+--with-xslt-lib=/opt/td-agent/embedded/lib
+--with-xslt-include=/opt/td-agent/embedded/include/libxslt
+--without-iconv
+--with-zlib-dir=/opt/td-agent/embedded
